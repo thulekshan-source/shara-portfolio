@@ -297,6 +297,20 @@ export default function Education() {
             gap: 2.5rem;
           }
         }
+        @media (max-width: 480px) {
+          .ach-item {
+            flex-direction: column;
+            text-align: center;
+            gap: 1rem;
+            padding: 1rem;
+          }
+          .ach-detail {
+            align-items: center;
+          }
+          .edu-item, .volunteer-list {
+            padding: 1.25rem;
+          }
+        }
       `}</style>
     </section>
   );

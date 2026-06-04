@@ -245,6 +245,22 @@ export default function Experience() {
             align-self: flex-start;
           }
         }
+        @media (max-width: 480px) {
+          .timeline-content {
+            padding: 1.25rem;
+          }
+          .timeline-item {
+            padding-left: 35px;
+          }
+          .timeline-line {
+            left: 15px;
+          }
+          .timeline-dot {
+            left: 2px;
+            width: 24px;
+            height: 24px;
+          }
+        }
       `}</style>
     </section>
   );

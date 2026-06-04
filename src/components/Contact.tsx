@@ -365,6 +365,20 @@ export default function Contact() {
             grid-template-columns: 1fr;
           }
         }
+        @media (max-width: 480px) {
+          .contact-info-panel, .contact-form-panel {
+            padding: 1.5rem;
+          }
+          .info-item {
+            flex-direction: column;
+            align-items: flex-start;
+            gap: 0.75rem;
+            padding: 1rem;
+          }
+          .success-message h3 {
+            font-size: 1.5rem;
+          }
+        }
       `}</style>
     </section>
   );

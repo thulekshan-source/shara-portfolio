@@ -232,7 +232,13 @@ export default function Hero({ onOpenChat }: HeroProps) {
 
         @media (max-width: 480px) {
           .hero-title {
-            font-size: 2.25rem;
+            font-size: 2rem;
+          }
+          .hero-subtitle {
+            font-size: 1.25rem;
+          }
+          .hero-description {
+            font-size: 1rem;
           }
           .hero-ctas {
             flex-direction: column;
@@ -243,7 +249,7 @@ export default function Hero({ onOpenChat }: HeroProps) {
             justify-content: center;
           }
           .profile-img {
-            max-width: 280px;
+            max-width: 240px;
           }
         }
       `}</style>
