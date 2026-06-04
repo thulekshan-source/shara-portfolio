@@ -1,4 +1,4 @@
-import React from 'react';
+
 import { GraduationCap, Award, Heart, Trophy, Medal } from 'lucide-react';
 
 export default function Education() {

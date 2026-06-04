@@ -1,4 +1,4 @@
-import React from 'react';
+
 import { Award, Laptop, Languages, Check } from 'lucide-react';
 
 export default function Skills() {

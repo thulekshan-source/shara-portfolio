@@ -1,4 +1,4 @@
-import React from 'react';
+
 import { ArrowUp, Heart } from 'lucide-react';
 
 export default function Footer() {

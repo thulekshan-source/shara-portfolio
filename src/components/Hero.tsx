@@ -1,5 +1,4 @@
-import React from 'react';
-import { MessageSquare, ArrowDownRight, Compass, Sparkles, Brain } from 'lucide-react';
+import { MessageSquare, ArrowDownRight, Compass } from 'lucide-react';
 import profileImg from '../assets/profile.png';
 
 interface HeroProps {

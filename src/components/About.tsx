@@ -1,5 +1,4 @@
-import React from 'react';
-import { Eye, TrendingUp, Target, ShieldCheck, HelpCircle, Activity } from 'lucide-react';
+import { Eye, TrendingUp, Target, ShieldCheck, Activity } from 'lucide-react';
 
 export default function About() {
   const values = [
