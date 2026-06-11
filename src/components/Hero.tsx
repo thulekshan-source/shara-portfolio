@@ -12,15 +12,15 @@ export default function Hero({ onOpenChat }: HeroProps) {
         <div className="hero-content animate-slide-up">
           <div className="location-badge">
             <Compass size={14} className="icon-pulse" />
-            <span>Based in Jaffna, Sri Lanka</span>
+            <span>Based in Sri Lanka</span>
           </div>
           
           <h1 className="hero-title">
-            Sharaniyan <span className="accent-gradient-text">Kannathasan</span>
+            SHARAN <span className="accent-gradient-text">K</span>
           </h1>
           
           <h2 className="hero-subtitle">
-            Psychology-Driven <span className="highlight">Marketing Professional</span> & Student Counsellor
+            Marketing / Psychology Driven <span className="highlight">Professional</span>
           </h2>
           
           <p className="hero-description">
@@ -43,7 +43,7 @@ export default function Hero({ onOpenChat }: HeroProps) {
         <div className="hero-visual animate-float">
           <div className="profile-image-container">
             <div className="profile-glow"></div>
-            <img src={profileImg} alt="Sharaniyan Kannathasan" className="profile-img" />
+            <img src={profileImg} alt="SHARAN K" className="profile-img" />
           </div>
           <div className="floating-bubble bubble-1"></div>
           <div className="floating-bubble bubble-2"></div>
@@ -136,7 +136,7 @@ export default function Hero({ onOpenChat }: HeroProps) {
         }
 
         .hero-btn-chat {
-          box-shadow: 0 4px 20px rgba(147, 51, 234, 0.5);
+          box-shadow: 0 4px 20px rgba(37, 99, 235, 0.5);
         }
 
         .hero-btn-explore {

@@ -4,12 +4,21 @@ import { Briefcase, Calendar, CheckCircle2 } from 'lucide-react';
 export default function Experience() {
   const jobs = [
     {
+      company: "FourthMonkeyConnect_ai",
+      role: "Senior Marketing Executive",
+      period: "April 2025 – Present",
+      bullets: [
+        "Developing and executing psychology-driven marketing campaigns and digital content strategies.",
+        "Structuring high-converting copy, sales funnels, and landing page layouts based on behavioral science.",
+        "Leading client acquisition and data-backed lead generation campaigns."
+      ]
+    },
+    {
       company: "AIC Campus (IMC-AIC Campus)",
       role: "Sales and Marketing Executive",
       period: "April 2025 – Present",
       bullets: [
         "Promoting international and local educational programs and driving student enrollment.",
-        "Providing student counselling, academic guidance, and career path alignment.",
         "Leading client engagement, school presentations, and stakeholder communications."
       ]
     },
@@ -39,15 +48,6 @@ export default function Experience() {
       bullets: [
         "Designed targeted social media campaigns for real estate and construction sectors.",
         "Generated high-quality leads using direct response copywriting and local ads targeting."
-      ]
-    },
-    {
-      company: "Vallunar Experts & txtmsg.lk",
-      role: "Marketing Head",
-      period: "Prior Contract",
-      bullets: [
-        "Oversaw end-to-end B2B and B2C marketing operations.",
-        "Spearheaded bulk SMS campaigns and automated message-based user retention funnels."
       ]
     }
   ];
@@ -140,7 +140,7 @@ export default function Experience() {
           justify-content: center;
           color: var(--accent-purple);
           z-index: 2;
-          box-shadow: 0 0 10px rgba(124, 58, 237, 0.4);
+          box-shadow: 0 0 10px rgba(37, 99, 235, 0.4);
           transition: all 0.3s ease;
         }
 

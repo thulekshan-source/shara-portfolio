@@ -1,4 +1,4 @@
-import { Eye, TrendingUp, Target, ShieldCheck, Activity } from 'lucide-react';
+import { Eye, TrendingUp, Target, ShieldCheck } from 'lucide-react';
 
 export default function About() {
   const values = [
@@ -26,32 +26,28 @@ export default function About() {
 
   return (
     <section id="about" className="about-section">
-      <h2 className="section-title">Who is Sharaniyan?</h2>
+      <h2 className="section-title">Who is SHARAN K?</h2>
       
       <div className="about-intro-grid">
         <div className="about-bio glass-panel">
           <h3 className="gradient-text">The Psychology Edge</h3>
           <p>
-            I am a Psychology-driven Marketing Professional and Student Counsellor currently studying for my <strong>BSc (Hons) in Applied Psychology</strong> at Plymouth Marjon University, UK. 
+            I am a Marketing / Psychology Driven Professional currently studying for my <strong>BSc (Hons) in Applied Psychology</strong> at Plymouth Marjon University, UK. 
           </p>
           <p>
             Traditional marketing relies on spreadsheets and general guesses. My approach starts with <strong>human behavior</strong>. By applying cognitive and behavioral science principles, I design digital strategies that match *how* the human brain perceives information, processes trust, and makes decisions.
           </p>
-          <div className="counselor-callout">
-            <Activity size={18} className="icon-pulse" />
-            <span>Dual expertise as a <strong>Student Counsellor</strong>, specializing in active listening, student guidance, and professional client advisory at IMC-AIC Campus.</span>
-          </div>
         </div>
 
         <div className="about-details glass-panel">
           <h3 className="accent-gradient-text">Quick Profile</h3>
           <ul className="profile-details-list">
-            <li><strong>Name:</strong> Sharaniyan Kannathasan</li>
-            <li><strong>Role:</strong> Marketing & Lead Gen Professional</li>
+            <li><strong>Name:</strong> SHARAN K</li>
+            <li><strong>Role:</strong> Marketing / Psychology Driven Professional</li>
             <li><strong>Expertise:</strong> Psychology-Driven Marketing</li>
-            <li><strong>Location:</strong> Jaffna, Sri Lanka</li>
-            <li><strong>Email:</strong> sharaniyan650@gmail.com</li>
-            <li><strong>Phone:</strong> +94 74 090 5585</li>
+            <li><strong>Location:</strong> Sri Lanka</li>
+            <li><strong>Email:</strong> sharanmarketing22@gmail.com</li>
+            <li><strong>Phone:</strong> +94 74 074 0375</li>
           </ul>
         </div>
       </div>
@@ -108,24 +104,7 @@ export default function About() {
           color: var(--text-primary);
         }
 
-        .counselor-callout {
-          display: flex;
-          align-items: flex-start;
-          gap: 0.75rem;
-          background: rgba(6, 182, 212, 0.05);
-          border: 1px solid rgba(6, 182, 212, 0.1);
-          padding: 1.25rem;
-          border-radius: 12px;
-          color: var(--text-secondary);
-          font-size: 0.95rem;
-          line-height: 1.5;
-        }
 
-        .counselor-callout .icon-pulse {
-          color: var(--accent-teal);
-          flex-shrink: 0;
-          margin-top: 0.2rem;
-        }
 
         .profile-details-list {
           list-style: none;
@@ -185,7 +164,7 @@ export default function About() {
         }
 
         .value-icon.purple {
-          color: #a78bfa;
+          color: var(--accent-pink);
         }
 
         .value-icon.teal {

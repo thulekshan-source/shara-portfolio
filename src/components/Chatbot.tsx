@@ -16,7 +16,7 @@ export default function Chatbot({ isOpen, onClose, onToggle }: ChatbotProps) {
   const [messages, setMessages] = useState<Message[]>([
     {
       sender: 'bot',
-      text: "Hello! I am Sharaniyan's AI Portfolio Assistant. Ask me anything about his work experience, psychology-driven marketing methods, education, or achievements!"
+      text: "Hello! I am SHARAN K's AI Portfolio Assistant. Ask me anything about his work experience, psychology-driven marketing methods, education, or achievements!"
     }
   ]);
   const [inputText, setInputText] = useState('');
@@ -48,45 +48,45 @@ export default function Chatbot({ isOpen, onClose, onToggle }: ChatbotProps) {
     const q = normalizeQuery(query);
 
     if (q.includes('hello') || q.includes('hi') || q.includes('hey') || q.includes('greet')) {
-      return "Hello! I am here to help you learn more about Sharaniyan Kannathasan. You can ask me about his psychology studies, digital marketing experience, achievements, or contact details!";
+      return "Hello! I am here to help you learn more about SHARAN K. You can ask me about his psychology studies, digital marketing experience, achievements, or contact details!";
     }
 
     if (q.includes('psychology') || q.includes('behavior') || q.includes('cognitive') || q.includes('edge') || q.includes('value') || q.includes('why')) {
-      return "Sharaniyan's unique value is Psychology-driven Marketing. Reading for a BSc (Hons) in Applied Psychology at Plymouth Marjon University, UK, he understands WHY people make decisions. He applies cognitive principles to design marketing strategies, copy, and campaigns that connect with human motivations and drive higher conversions.";
+      return "SHARAN K's unique value is Psychology-driven Marketing. Reading for a BSc (Hons) in Applied Psychology at Plymouth Marjon University, UK, he understands WHY people make decisions. He applies cognitive principles to design marketing strategies, copy, and campaigns that connect with human motivations and drive higher conversions.";
     }
 
-    if (q.includes('experience') || q.includes('work') || q.includes('job') || q.includes('company') || q.includes('career') || q.includes('executive') || q.includes('media') || q.includes('aic') || q.includes('samugam') || q.includes('arivithal') || q.includes('dcn') || q.includes('vallunar') || q.includes('txtmsg')) {
-      return "Sharaniyan's professional experience includes:\n\n" +
-             "1. AIC Campus — Sales & Marketing Executive (April 2025 – Present): Promoting education programs, student counselling, and client communication.\n\n" +
-             "2. Samugam Media Pvt Ltd — Marketing Executive (Oct 2025 – Present): Content creation, digital branding, and audience growth.\n\n" +
-             "3. Arivithal @rippage — Social Media Executive: Content and campaign management.\n\n" +
-             "4. DCN Stars Constructions — Marketing and Lead Gen Lead: Generating targeted customer leads.\n\n" +
-             "5. Vallunar Experts & txtmsg.lk — Marketing Head: Leading SMS and digital marketing operations.";
+    if (q.includes('experience') || q.includes('work') || q.includes('job') || q.includes('company') || q.includes('career') || q.includes('executive') || q.includes('media') || q.includes('aic') || q.includes('samugam') || q.includes('arivithal') || q.includes('dcn')) {
+      return "SHARAN K's professional experience includes:\n\n" +
+             "1. FourthMonkeyConnect_ai — Senior Marketing Executive (April 2025 – Present): Developing psychology-driven campaigns and leading brand promotion.\n\n" +
+             "2. AIC Campus — Sales & Marketing Executive (April 2025 – Present): Promoting education programs and client communication.\n\n" +
+             "3. Samugam Media Pvt Ltd — Marketing Executive (Oct 2025 – Present): Content creation, digital branding, and audience growth.\n\n" +
+             "4. Arivithal @rippage — Social Media Executive: Content and campaign management.\n\n" +
+             "5. DCN Stars Constructions — Marketing and Lead Gen Lead: Generating targeted customer leads.";
     }
 
     if (q.includes('skill') || q.includes('tool') || q.includes('excel') || q.includes('canva') || q.includes('psytoolkit') || q.includes('language') || q.includes('tamil') || q.includes('english')) {
-      return "Here are Sharaniyan's skills and tools:\n\n" +
+      return "Here are SHARAN K's skills and tools:\n\n" +
              "• Marketing: Digital Marketing, Social Media Management, Content Creation, Email Marketing, Lead Generation, Analytics, Brand Promotion.\n\n" +
              "• Tools: Canva, PsyToolkit (psychology experiment builder), Microsoft Excel, and various data analysis tools.\n\n" +
-             "• Languages: Tamil (Native), English (Fluent), and Sinhala (Basic).";
+             "• Languages: Tamil (Native), English (Full Proficiency), and Sinhala (Basic).";
     }
 
     if (q.includes('education') || q.includes('study') || q.includes('degree') || q.includes('university') || q.includes('diploma') || q.includes('school') || q.includes('college')) {
-      return "Sharaniyan's education details:\n\n" +
+      return "SHARAN K's education details:\n\n" +
              "• BSc (Hons) Applied Psychology — Plymouth Marjon University, UK (Feb 2027 – Feb 2028)\n\n" +
              "• Advanced Diploma — TVEC, IMC-AIC Campus, Sri Lanka (Feb 2025 – Feb 2027)\n\n" +
-             "• Secondary Education — Jaffna Hindu College.";
+             "• Secondary Education — Sri Lanka.";
     }
 
     if (q.includes('contact') || q.includes('hire') || q.includes('email') || q.includes('phone') || q.includes('call') || q.includes('number') || q.includes('gmail')) {
-      return "You can get in touch with Sharaniyan directly:\n\n" +
-             "• Email: sharaniyan650@gmail.com\n" +
-             "• Phone: +94 74 090 5585\n\n" +
+      return "You can get in touch with SHARAN K directly:\n\n" +
+             "• Email: sharanmarketing22@gmail.com\n" +
+             "• Phone: +94 74 074 0375\n\n" +
              "Alternatively, you can fill out the contact form at the bottom of this portfolio page!";
     }
 
     if (q.includes('achievement') || q.includes('award') || q.includes('basketball') || q.includes('sport') || q.includes('champion') || q.includes('sahasak')) {
-      return "Sharaniyan has achieved success across innovation, sports, and community leadership:\n\n" +
+      return "SHARAN K has achieved success across innovation, sports, and community leadership:\n\n" +
              "• SAHASAK NIMAVUM — National Inventions & Innovations Award (2016)\n" +
              "• Provincial Basketball Champions (Under-15 in 2016, Under-17 in 2018)\n" +
              "• National Basketball Champions (Under-20 C & B Division in 2019)\n" +
@@ -95,16 +95,16 @@ export default function Chatbot({ isOpen, onClose, onToggle }: ChatbotProps) {
     }
 
     if (q.includes('volunteer') || q.includes('community') || q.includes('youth') || q.includes('services') || q.includes('unicef') || q.includes('counsell') || q.includes('shanthikam')) {
-      return "Sharaniyan is highly active in social & community organizations:\n\n" +
+      return "SHARAN K is highly active in social & community organizations:\n\n" +
              "• Youth Coordinator for SSSC Child & Youth Services.\n" +
              "• Child & Youth Services Volunteer at Shanthikam Counselling Centre.\n" +
              "• UNICEF & Ministry of Health National Youth Consultation (Health & Wellbeing, 2025).\n" +
-             "• Member & Volunteer for Lions Club International, Jaffna.\n" +
+             "• Member & Volunteer for Lions Club International.\n" +
              "• Coordinator for OBF Foundations.";
     }
 
     // Default Fallback
-    return "I want to make sure I give you exact information. Sharaniyan is a Psychology-driven Marketer and Student Counsellor based in Jaffna. Ask me about his 'experience', 'psychology edge', 'education', 'skills', 'achievements', or how to 'contact' him!";
+    return "I want to make sure I give you exact information. SHARAN K is a Marketing / Psychology Driven Professional based in Sri Lanka. Ask me about his 'experience', 'psychology edge', 'education', 'skills', 'achievements', or how to 'contact' him!";
   };
 
   const handleSend = (textToSend: string) => {
@@ -145,7 +145,7 @@ export default function Chatbot({ isOpen, onClose, onToggle }: ChatbotProps) {
                 <span className="online-indicator"></span>
               </div>
               <div className="identity-text">
-                <h4>Sharan's AI Assistant</h4>
+                <h4>SHARAN K's AI Assistant</h4>
                 <span>Online & Ready</span>
               </div>
             </div>

@@ -19,10 +19,10 @@ export default function Education() {
 
   const communityList = [
     { role: "Youth Coordinator", org: "SSSC Child & Youth Services" },
-    { role: "Member & Volunteer", org: "Lions Club International, Jaffna" },
+    { role: "Member & Volunteer", org: "Lions Club International" },
     { role: "Child & Youth Services Support", org: "Shanthikam Counselling Centre" },
     { role: "National Youth Consultation (Health & Wellbeing)", org: "Ministry of Health, UNICEF & YouPAH (2025)" },
-    { role: "OBA Active Member", org: "Jaffna Hindu College (Jaffna & Colombo)" }
+    { role: "OBA Active Member", org: "Hindu College Alumni Association" }
   ];
 
   const achievementsList = [
@@ -32,7 +32,7 @@ export default function Education() {
       type: "award"
     },
     {
-      title: "Champions — Keerthikan Memorial Trophy, Kokuvil Hindu College",
+      title: "Champions — Keerthikan Memorial Trophy",
       year: "2025",
       type: "trophy"
     },
@@ -169,8 +169,8 @@ export default function Education() {
           font-size: 0.8rem;
           font-weight: 600;
           color: var(--accent-magenta);
-          background: rgba(232, 121, 249, 0.08);
-          border: 1px solid rgba(232, 121, 249, 0.15);
+          background: rgba(0, 173, 239, 0.08);
+          border: 1px solid rgba(0, 173, 239, 0.15);
           padding: 0.25rem 0.6rem;
           border-radius: 9999px;
           margin-bottom: 0.75rem;
@@ -243,8 +243,8 @@ export default function Education() {
         }
 
         .ach-item:hover {
-          border-color: rgba(232, 121, 249, 0.2) !important;
-          box-shadow: 0 8px 30px rgba(232, 121, 249, 0.08);
+          border-color: rgba(0, 173, 239, 0.2) !important;
+          box-shadow: 0 8px 30px rgba(0, 173, 239, 0.08);
         }
 
         .ach-icon-container {

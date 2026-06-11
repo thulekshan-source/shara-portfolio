@@ -69,27 +69,27 @@ export default function Contact() {
         <div className="contact-info-panel glass-panel">
           <h3 className="gradient-text">Let's Connect</h3>
           <p className="contact-intro-text">
-            Have a project in mind, want to elevate your marketing campaigns, or interested in active student counselling advisory? Feel free to reach out directly.
+            Have a project in mind, want to elevate your marketing campaigns, or interested in psychology-driven marketing strategies? Feel free to reach out directly.
           </p>
 
           <div className="info-items">
-            <a href="mailto:sharaniyan650@gmail.com" className="info-item glass-card">
+            <a href="mailto:sharanmarketing22@gmail.com" className="info-item glass-card">
               <div className="info-icon-box purple">
                 <Mail size={20} />
               </div>
               <div className="info-detail">
                 <span>Email Me</span>
-                <strong>sharaniyan650@gmail.com</strong>
+                <strong>sharanmarketing22@gmail.com</strong>
               </div>
             </a>
 
-            <a href="tel:+94740905585" className="info-item glass-card">
+            <a href="tel:+94740740375" className="info-item glass-card">
               <div className="info-icon-box teal">
                 <Phone size={20} />
               </div>
               <div className="info-detail">
                 <span>Call Me</span>
-                <strong>+94 74 090 5585</strong>
+                <strong>+94 74 074 0375</strong>
               </div>
             </a>
 
@@ -99,7 +99,7 @@ export default function Contact() {
               </div>
               <div className="info-detail">
                 <span>Location</span>
-                <strong>Jaffna, Sri Lanka</strong>
+                <strong>Sri Lanka</strong>
               </div>
             </div>
           </div>
@@ -111,7 +111,7 @@ export default function Contact() {
             <div className="success-message animate-fade-in">
               <CheckCircle size={56} className="success-icon" />
               <h3>Message Sent!</h3>
-              <p>Thank you for reaching out. Sharaniyan will get back to you shortly.</p>
+              <p>Thank you for reaching out. SHARAN K will get back to you shortly.</p>
               <button onClick={() => setIsSent(false)} className="btn btn-secondary btn-reset">
                 Send Another Message
               </button>

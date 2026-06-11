@@ -12,18 +12,18 @@ export default function AnimatedBackground() {
       >
         <defs>
           <linearGradient id="lineGrad1" x1="0%" y1="0%" x2="100%" y2="100%">
-            <stop offset="0%" stopColor="#9333ea" stopOpacity="0.6" />
-            <stop offset="50%" stopColor="#c026d3" stopOpacity="0.4" />
-            <stop offset="100%" stopColor="#ec4899" stopOpacity="0.1" />
+            <stop offset="0%" stopColor="#2563eb" stopOpacity="0.6" />
+            <stop offset="50%" stopColor="#00adef" stopOpacity="0.4" />
+            <stop offset="100%" stopColor="#38bdf8" stopOpacity="0.1" />
           </linearGradient>
           <linearGradient id="lineGrad2" x1="0%" y1="100%" x2="100%" y2="0%">
-            <stop offset="0%" stopColor="#a855f7" stopOpacity="0.5" />
-            <stop offset="50%" stopColor="#d946ef" stopOpacity="0.3" />
-            <stop offset="100%" stopColor="#f472b6" stopOpacity="0.08" />
+            <stop offset="0%" stopColor="#3b82f6" stopOpacity="0.5" />
+            <stop offset="50%" stopColor="#0ea5e9" stopOpacity="0.3" />
+            <stop offset="100%" stopColor="#a5f3fc" stopOpacity="0.08" />
           </linearGradient>
           <linearGradient id="lineGrad3" x1="100%" y1="0%" x2="0%" y2="100%">
-            <stop offset="0%" stopColor="#7c3aed" stopOpacity="0.4" />
-            <stop offset="100%" stopColor="#c026d3" stopOpacity="0.05" />
+            <stop offset="0%" stopColor="#1d4ed8" stopOpacity="0.4" />
+            <stop offset="100%" stopColor="#00adef" stopOpacity="0.05" />
           </linearGradient>
         </defs>
         
@@ -141,7 +141,7 @@ export default function AnimatedBackground() {
           left: 10%;
           width: 400px;
           height: 400px;
-          background: radial-gradient(circle, rgba(147, 51, 234, 0.3) 0%, transparent 70%);
+          background: radial-gradient(circle, rgba(37, 99, 235, 0.3) 0%, transparent 70%);
           animation: orbFloat1 10s ease-in-out infinite;
         }
 
@@ -150,7 +150,7 @@ export default function AnimatedBackground() {
           right: 5%;
           width: 350px;
           height: 350px;
-          background: radial-gradient(circle, rgba(192, 38, 211, 0.2) 0%, transparent 70%);
+          background: radial-gradient(circle, rgba(0, 173, 239, 0.2) 0%, transparent 70%);
           animation: orbFloat2 14s ease-in-out infinite;
         }
 
@@ -159,7 +159,7 @@ export default function AnimatedBackground() {
           left: 30%;
           width: 300px;
           height: 300px;
-          background: radial-gradient(circle, rgba(236, 72, 153, 0.15) 0%, transparent 70%);
+          background: radial-gradient(circle, rgba(56, 189, 248, 0.15) 0%, transparent 70%);
           animation: orbFloat3 12s ease-in-out infinite;
         }
 

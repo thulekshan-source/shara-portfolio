@@ -1,27 +1,27 @@
 @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap');
 
 :root {
-  /* Color Palette — Vibrant Purple / Magenta */
-  --bg-primary: #1a0533;
-  --bg-secondary: #230845;
-  --bg-tertiary: #2d0f52;
+  /* Color Palette — Vibrant Navy / Blue / Cyan (c100) */
+  --bg-primary: #080f21;
+  --bg-secondary: #0e1a36;
+  --bg-tertiary: #18294f;
   
   --text-primary: #f8fafc;
-  --text-secondary: #c4b5d9;
-  --text-muted: #8b6faa;
+  --text-secondary: #b4c6ef;
+  --text-muted: #7c95d1;
   
-  --accent-purple: #9333ea;
-  --accent-magenta: #c026d3;
-  --accent-violet: #a855f7;
-  --accent-teal: #06b6d4;
-  --accent-pink: #ec4899;
-  --accent-purple-glow: rgba(147, 51, 234, 0.25);
-  --accent-magenta-glow: rgba(192, 38, 211, 0.2);
+  --accent-purple: #2563eb;
+  --accent-magenta: #00adef;
+  --accent-violet: #3b82f6;
+  --accent-teal: #00f5ff;
+  --accent-pink: #38bdf8;
+  --accent-purple-glow: rgba(37, 99, 235, 0.25);
+  --accent-magenta-glow: rgba(0, 173, 239, 0.2);
   
-  --glass-bg: rgba(30, 10, 60, 0.45);
-  --glass-border: rgba(255, 255, 255, 0.1);
-  --glass-border-hover: rgba(255, 255, 255, 0.22);
-  --glass-glow: rgba(147, 51, 234, 0.08);
+  --glass-bg: rgba(14, 26, 54, 0.45);
+  --glass-border: rgba(255, 255, 255, 0.08);
+  --glass-border-hover: rgba(255, 255, 255, 0.18);
+  --glass-glow: rgba(0, 173, 239, 0.08);
 
   --font-sans: 'Outfit', 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
   
@@ -48,9 +48,9 @@ body {
   overflow-x: hidden;
   line-height: 1.6;
   background: 
-    radial-gradient(ellipse 120% 80% at 50% 0%, rgba(147, 51, 234, 0.25) 0%, transparent 60%),
-    radial-gradient(ellipse 80% 60% at 80% 50%, rgba(192, 38, 211, 0.12) 0%, transparent 50%),
-    radial-gradient(ellipse 80% 60% at 20% 80%, rgba(168, 85, 247, 0.1) 0%, transparent 50%),
+    radial-gradient(ellipse 120% 80% at 50% 0%, rgba(37, 99, 235, 0.25) 0%, transparent 60%),
+    radial-gradient(ellipse 80% 60% at 80% 50%, rgba(0, 173, 239, 0.12) 0%, transparent 50%),
+    radial-gradient(ellipse 80% 60% at 20% 80%, rgba(59, 130, 246, 0.1) 0%, transparent 50%),
     var(--bg-primary);
 }
 
@@ -83,13 +83,13 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .gradient-text {
-  background: linear-gradient(135deg, #ffffff 30%, #c084fc 100%);
+  background: linear-gradient(135deg, #ffffff 30%, #93c5fd 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 
 .accent-gradient-text {
-  background: linear-gradient(135deg, #c084fc 0%, #ec4899 50%, #f472b6 100%);
+  background: linear-gradient(135deg, #93c5fd 0%, #00adef 50%, #a5f3fc 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -110,13 +110,13 @@ h1, h2, h3, h4, h5, h6 {
 .glass-panel:hover {
   border-color: var(--glass-border-hover);
   box-shadow: 
-    0 12px 40px 0 rgba(147, 51, 234, 0.15),
+    0 12px 40px 0 rgba(37, 99, 235, 0.15),
     inset 0 1px 0 rgba(255, 255, 255, 0.08);
   transform: translateY(-2px);
 }
 
 .glass-card {
-  background: rgba(30, 10, 60, 0.35);
+  background: rgba(14, 26, 54, 0.35);
   backdrop-filter: blur(12px);
   border: 1px solid rgba(255, 255, 255, 0.07);
   border-radius: 12px;
@@ -125,10 +125,10 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .glass-card:hover {
-  border-color: rgba(147, 51, 234, 0.3);
-  background: rgba(40, 15, 75, 0.5);
+  border-color: rgba(37, 99, 235, 0.3);
+  background: rgba(20, 40, 85, 0.5);
   transform: translateY(-4px);
-  box-shadow: 0 8px 30px rgba(147, 51, 234, 0.12);
+  box-shadow: 0 8px 30px rgba(37, 99, 235, 0.12);
 }
 
 /* Buttons */
@@ -189,9 +189,9 @@ h1, h2, h3, h4, h5, h6 {
   border-radius: 9999px;
   font-size: 0.8rem;
   font-weight: 500;
-  border: 1px solid rgba(192, 38, 211, 0.25);
-  background: rgba(192, 38, 211, 0.1);
-  color: #e879f9;
+  border: 1px solid rgba(0, 173, 239, 0.25);
+  background: rgba(0, 173, 239, 0.1);
+  color: #38bdf8;
 }
 
 /* Animations */
@@ -218,9 +218,9 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 @keyframes pulse-glow {
-  0% { box-shadow: 0 0 0 0 rgba(147, 51, 234, 0.4); }
-  70% { box-shadow: 0 0 0 10px rgba(147, 51, 234, 0); }
-  100% { box-shadow: 0 0 0 0 rgba(147, 51, 234, 0); }
+  0% { box-shadow: 0 0 0 0 rgba(37, 99, 235, 0.4); }
+  70% { box-shadow: 0 0 0 10px rgba(37, 99, 235, 0); }
+  100% { box-shadow: 0 0 0 0 rgba(37, 99, 235, 0); }
 }
 
 .animate-fade-in {

@@ -10,7 +10,7 @@ export default function Footer() {
     <footer className="footer-container">
       <div className="footer-content">
         <div className="footer-logo">
-          SK<span className="dot">.</span>
+          SHARAN K <span className="dot">.</span>
         </div>
         
         <div className="footer-links">
@@ -23,7 +23,7 @@ export default function Footer() {
         
         <div className="footer-bottom">
           <p className="copyright">
-            &copy; {new Date().getFullYear()} Sharaniyan Kannathasan. All Rights Reserved.
+            &copy; {new Date().getFullYear()} SHARAN K. All Rights Reserved.
           </p>
           <p className="made-with">
             Designed with <Heart size={12} className="heart-icon" /> for the ultimate psychology-driven marketing edge.

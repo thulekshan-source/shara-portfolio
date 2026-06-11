@@ -31,7 +31,7 @@ export default function Skills() {
       icon: <Languages className="category-icon purple" />,
       languages: [
         { name: "Tamil", level: "Native Proficiency" },
-        { name: "English", level: "Professional Fluency" },
+        { name: "English", level: "Full Proficiency" },
         { name: "Sinhala", level: "Basic Communication" }
       ]
     }
@@ -72,7 +72,7 @@ export default function Skills() {
                       <div 
                         className="lang-bar" 
                         style={{ 
-                          width: lang.name === "Tamil" ? "100%" : lang.name === "English" ? "90%" : "40%",
+                          width: lang.name === "Tamil" ? "100%" : lang.name === "English" ? "100%" : "40%",
                           background: index % 2 === 0 ? 'var(--accent-purple)' : 'var(--accent-teal)'
                         }}
                       ></div>
@@ -127,7 +127,7 @@ export default function Skills() {
         }
 
         .category-icon.purple {
-          color: #a78bfa;
+          color: var(--accent-pink);
         }
 
         .category-icon.teal {
@@ -169,7 +169,7 @@ export default function Skills() {
         .skills-card:nth-child(even) .check-bullet {
           background: rgba(124, 58, 237, 0.08);
           border-color: rgba(124, 58, 237, 0.2);
-          color: #a78bfa;
+          color: var(--accent-pink);
         }
 
         .languages-list {
